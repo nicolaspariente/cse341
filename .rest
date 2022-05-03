@@ -9,3 +9,22 @@ GET http://localhost:3000/dbinfo
 
 ### Require one single json
 GET http://localhost:3000/dbinfo/6266ad750dbab2d67242f12d
+
+### Create contact 
+POST http://localhost:3000/dbinfo HTTP/1.1
+ content-type: application/json
+
+{
+"firstName":"Nicolas", "lastName":"Pariente", "email":"nico@test.com", "favoriteColor":"Green", "birthday":"02/15/1998"
+}
+
+### Update contact 
+PUT http://localhost:3000/dbinfo/62717f9e032db2a0032fa5e9 HTTP/1.1
+ content-type: application/json
+
+{
+"firstName":"Nicolas", "lastName":"Pariente", "email":"nicoyes@test.com", "favoriteColor":"Green", "birthday":"02/15/1998"
+}
+
+### DELETE contact 
+DELETE http://localhost:3000/dbinfo/62717f9e032db2a0032fa5e9 HTTP/1.1
