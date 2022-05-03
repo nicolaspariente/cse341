@@ -1,0 +1,23 @@
+{
+    "firstContact":{
+        "firstName": "Agustin",
+        "lastName": "Pariente",
+        "email": "apariente@gmail.com",
+        "favoriteColor": "blue",
+        "birthday": "02/14/2000"
+    },
+    "secondContact":{
+        "firstName": "Juan",
+        "lastName": "Pariente",
+        "email": "jpariente@gmail.com",
+        "favoriteColor": "orange",
+        "birthday": "09/02/2003"
+    },
+    "thirdContact":{
+        "firstName": "Benjamin",
+        "lastName": "Pariente",
+        "email": "bpariente@gmail.com",
+        "favoriteColor": "green",
+        "birthday": "05/24/2013"
+    }
+}

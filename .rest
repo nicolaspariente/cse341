@@ -1,0 +1,11 @@
+### Require everything
+GET http://localhost:3000/
+
+### Require other
+GET http://localhost:3000/other
+
+### Test database
+GET http://localhost:3000/dbinfo
+
+### Require one single json
+GET http://localhost:3000/dbinfo/6266ad750dbab2d67242f12d
